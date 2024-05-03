@@ -1,0 +1,5 @@
+- 👋 Hi, I’m Ruslana
+- 🖥️ I’m a Java and Spring Boot software developer 
+- 🌱 I’m currently honing my programming skills
+- 📫 Contact: https://linkedin.com/in/ruslanaprus
+- 📖 Proficient languages: 🇺🇦 Ukrainian 🇬🇧 English 🇵🇱 Polish
