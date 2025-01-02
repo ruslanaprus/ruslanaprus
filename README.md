@@ -33,7 +33,7 @@ A Java Spring application that provides a REST API and website for **notes manag
 
 Both modules share a centralised architecture for core functionalities, including JPA repositories, services, database entities, and caching, ensuring consistency and reusability.
 
-• Java 21 • Spring Boot • Spring Data JPA • Spring Security • JWT • PostgreSQL • Flyway • Jakarta Bean Validation • Thymeleaf • JUnit 5 • Mockito • Springdoc OpenAPI •
+**• Java 21 • Spring Boot • Spring Data JPA • Spring Security • JWT • PostgreSQL • Flyway • Jakarta Bean Validation • Thymeleaf • JUnit 5 • Mockito • Springdoc OpenAPI •**
 
 <details>
 <summary>Details of the project</summary>
@@ -71,7 +71,7 @@ Both modules share a centralised architecture for core functionalities, includin
 
 A Java-based web app managing clients, destinations, and tickets using PostgreSQL. Supports CRUD operations with Thymeleaf for HTML rendering and Hibernate ORM for data access.
 
-• Java 21 • Hibernate ORM • Flyway • Thymeleaf • Jakarta Servlet • Tomcat •  PostgreSQL • Docker • Gradle •
+**• Java 21 • Hibernate ORM • Flyway • Thymeleaf • Jakarta Servlet • Tomcat •  PostgreSQL • Docker • Gradle •**
 
 <details>
 <summary>Details of the project</summary>
@@ -93,7 +93,7 @@ A Java-based web app managing clients, destinations, and tickets using PostgreSQ
 
 A simple Java servlet app that displays time in a selected time zone together with a cat image. Uses cookies to remember previously selected time zone.
 
-• Java 21 • Jakarta Servlet • Tomcat • Thymeleaf • SLF4J • Logback • JUnit • Mockito • Gradle • Docker • GitHub Actions •
+**• Java 21 • Jakarta Servlet • Tomcat • Thymeleaf • SLF4J • Logback • JUnit • Mockito • Gradle • Docker • GitHub Actions •**
 
 <details>
 <summary>Details of the project</summary>
@@ -113,7 +113,7 @@ A simple Java servlet app that displays time in a selected time zone together wi
 
 A simple web server that serves images representing different HTTP status codes. These images are fetched from the `https://http.cat` API or served from a local cache.
 
-• Java 21 • `http.cat` API • SLF4J • Logback • ttf font •
+**• Java 21 • `http.cat` API • SLF4J • Logback • ttf font •**
 
 <details>
 <summary>Details of the project</summary>
@@ -135,7 +135,7 @@ A simple web server that serves images representing different HTTP status codes.
 
 This project extends the functionality of the original [SQL Database Operations Manager](https://github.com/ruslanaprus/goit-academy-dev-hw07) by introducing several significant new features, including database migrations using Flyway, implementation of CRUD operations for Workers, Clients, and Projects, and a flexible HTTP server to handle client requests for database communication.
 
-• Java 21 • JDBC • PostgreSQL • SQLite • Jackson • Flyway • HikariCP • SLF4J • Logback • Dropwizard Metrics • JUnit • Mockito •
+**• Java 21 • JDBC • PostgreSQL • SQLite • Jackson • Flyway • HikariCP • SLF4J • Logback • Dropwizard Metrics • JUnit • Mockito •**
 
 <details>
 <summary>Details of the project</summary>
