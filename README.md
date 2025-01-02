@@ -150,3 +150,29 @@ This project extends the functionality of the original [SQL Database Operations 
 </details>
 
 ---
+
+### [Currency Exchange Rate Telegram bot](https://github.com/ruslanaprus/currency-bot)
+
+A collaborative project - Telegram bot that provides real-time currency exchange rates from various banks. It allows users to interact with the bot through a conversational interface, enabling them to customise settings and receive notifications based on their preferences.
+
+**My contribution**: Designed and developed an interface component (keyboard) for a Telegram bot that is agnostic to specific settings and can **automatically display new options** and settings by **dynamically generating keyboards** based on provided data. This tool improved accessibility for users regardless of their preferences.
+
+**• Java 21 • Maven • Telegram Bot API • Telegram Client • Jackson • SLF4J • Logback •**
+
+<details>
+<summary>Details of the project</summary>
+<br>
+
+- **Real-Time Currency Rates**: Fetches and displays the latest exchange rates from multiple banks.
+- **User Settings**:
+	- Allows users to customise their settings, including preferred currencies and notification times.
+	- Settings are loaded from storage during initialisation, allowing the bot to resume with the same settings as before a shutdown.
+	- User settings can be stored in a JSON file and updated once the user clicks on a specific button. If the user doesn't choose any settings, default settings will be applied.
+- **Notifications**:
+	- Bot sends notifications to users based on their settings.
+	- User can choose the convenient for them time for notifications.
+- **Scalability**: Designed to be easily extendable for adding new banks or currencies, using external storage for user settings.
+
+</details>
+
+---
