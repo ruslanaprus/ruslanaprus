@@ -62,7 +62,7 @@ A Java Spring application that provides a REST API to shorten URL. This project 
 </details>
 
 ---
-### [Note Manager with REST API](https://github.com/ruslanaprus/note-manager))
+### [Note Manager with REST API](https://github.com/ruslanaprus/note-manager)
 
 A Java Spring application that provides a REST API and website for **notes management**. The purpose of this application is to provide an interface for managing notes, which handles user authentication, session management, account lockout mechanisms, and input validation. The application has two independent parts:
 
