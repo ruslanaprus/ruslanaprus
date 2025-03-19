@@ -26,7 +26,43 @@
 
 ## :cat: **My Projects**:
 
-### [Note Manager with REST API](https://github.com/ruslanaprus/goit-academy-dev-hw19)
+### [URL Shortener REST API](https://github.com/ruslanaprus/short-url)
+
+A Java Spring application that provides a REST API to shorten URL. This project enables users to create short URLs for long links, manage those links, and track usage statistics like click counts.
+
+• Java 21 • Spring Boot 3 • Spring Data JPA • Spring Security • JWT • PostgreSQL • Flyway • Jakarta Bean Validation • JUnit 5 • Mockito • Testcontainers • Docker • GitHub Actions • Springdoc OpenAPI
+
+<details>
+<summary>Details of the project</summary>
+<br>
+	
+**Short URL Management features:**
+
+- Generate unique short URLs for given long URLs.
+- Allow users to define custom short codes (if not already in use).
+- Track click statistics for each URL.
+- URLs can have an optional expiration date.
+- Support for active and expired URL statuses.
+
+**REST API:**
+
+- Fully-documented API using **Springdoc OpenAPI**.
+- RESTful endpoints for creating, reading, updating, and deleting URLs.
+- Pagination support for listing URLs.
+
+**Security:**
+
+- User authentication using **JWT (JSON Web Tokens)**.
+- Endpoints for user registration and login:
+    - `/api/v1/signup` - Register a new user.
+    - `/api/v1/login` - Authenticate a user and generate a JWT.
+- Passwords are securely hashed using **BCryptPasswordEncoder**.
+- Stateless, token-based session management.
+
+</details>
+
+---
+### [Note Manager with REST API](https://github.com/ruslanaprus/note-manager))
 
 A Java Spring application that provides a REST API and website for **notes management**. The purpose of this application is to provide an interface for managing notes, which handles user authentication, session management, account lockout mechanisms, and input validation. The application has two independent parts:
 
