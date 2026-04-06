@@ -106,6 +106,54 @@ Both modules share a centralised architecture for core functionalities, includin
 </details>
 
 ---
+### [Fibonacci Calculator](https://github.com/ruslanaprus/fibonacci-calculator)
+
+A Java command-line application built as a **performance analysis tool for computing Fibonacci numbers**. The purpose of this project is to study and compare multiple algorithmic strategies, analyse their efficiency, and provide insights into execution time, memory usage, and system behaviour. The application consists of two main parts:
+
+- **Computation Module**: Implements multiple independent strategies (recursive, iterative, dynamic programming, matrix exponentiation) for calculating Fibonacci numbers with varying complexity and performance characteristics.
+- **Benchmarking Module**: Uses JMH to evaluate and compare implementations based on execution time, memory allocation, and garbage collection metrics.
+
+Both modules share a structured architecture for core logic, ensuring consistency in computation, logging, and performance analysis across different strategies.
+
+• Java 21 • Java Microbenchmark Harness (JMH) • JUnit 5 • Mockito
+
+<details> <summary>Details of the project</summary> <br>
+
+**Computation Strategies:** Multiple approaches for calculating Fibonacci numbers, each optimised for different use cases:
+
+- **Recursive** (O(2ⁿ)): Simple and educational, suitable for small inputs.
+- **Iterative** (O(n), O(1) space): Efficient for medium-sized inputs.
+- **Dynamic Programming** (O(n)): Uses bounded memoization for improved performance.
+- **Matrix Exponentiation**: Supports both linear and logarithmic implementations, enabling efficient large-scale computations.
+
+**High-Precision Calculations:**
+
+- Supports **BigInteger** and **BigDecimal** for handling extremely large Fibonacci numbers.
+- Configurable precision using `MathContext` for fine-grained control in calculations.
+
+**Performance Analysis:**
+
+- Execution time is logged for each computation strategy.
+- Benchmarks implemented with **JMH** provide detailed insights, including:
+    - Throughput (operations per millisecond)
+    - Memory allocation rates
+    - Garbage collection frequency and duration
+- Results are exported (CSV/JSON) for further analysis.
+
+**Optimisation Insights:**
+
+- Identifies performance bottlenecks through collected metrics.
+- Enables comparison of algorithm efficiency under different workloads.
+
+**Command-Line Interface:**
+
+- Interactive input for selecting computation strategy and Fibonacci index.
+- Designed for experimentation and comparative analysis.
+
+</details>
+
+
+---
 ### [Travel Management System](https://github.com/ruslanaprus/goit-academy-dev-hw13)
 
 A Java-based web app managing clients, destinations, and tickets using PostgreSQL. Supports CRUD operations with Thymeleaf for HTML rendering and Hibernate ORM for data access.
