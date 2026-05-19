@@ -27,6 +27,19 @@
 
 ## :cat: **My Projects**:
 
+### [HearMe Text-to-Speech Drupal Module](https://github.com/ruslanaprus/hear-me/tree/main)
+
+A Drupal module that provides **text-to-speech (TTS) playback** for content pages, enabling users to listen to text via a speaker button without page reloads. The module converts written content into audio while supporting integration with multiple TTS providers.
+
+The module is structured around a central service layer that coordinates request handling, caching, provider communication, and media management.
+
+- **UI Integration**: Adds inline playback buttons via text filters and a configurable “Listen to this page” block.
+- **TTS Processing Module**: Handles HTTP requests, validation, provider routing, and audio playback.
+- **Provider System**: Supports interchangeable TTS backends via a standard PHP interface.
+
+• Drupal 11 • PHP 8+ • Media & File API • Service Container • Piper TTS • HTTP Client • Queue API • MySQL/MariaDB
+
+---
 ### [URL Shortener REST API](https://github.com/ruslanaprus/short-url)
 
 A Java Spring application that provides a REST API to shorten URL. This project enables users to create short URLs for long links, manage those links, and track usage statistics like click counts.
